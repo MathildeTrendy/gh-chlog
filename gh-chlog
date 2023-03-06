@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-echo "Hello gh-chlog!"
+gh issue list 
 
 # Snippets to help get started:
 
