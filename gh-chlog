@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-gh issue list 
+gh issue list > $(git rev-parse --show-toplevel)/issues.md
 
 # Snippets to help get started:
 
